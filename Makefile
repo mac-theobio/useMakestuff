@@ -13,6 +13,8 @@ vim_session:
 
 Sources += Makefile README.md
 
+Sources += $(wildcard *.md)
+
 ######################################################################
 
 ### Makestuff

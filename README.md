@@ -11,4 +11,13 @@ makestuff is a bit of a mess and should probably be refactored. [JD](https://mac
 
 [git](git.md): there are a _lot_ of rules in [git.mk](https://github.com/dushoff/makestuff/blob/master/git.mk), but using some of the simple ones can be fun.
 
+## Using an existing makestuff repo
+
+In general, you should be able to make the primary target in a makestuff project with the following commands:
+
+* clone the repo and switch to the repo directory
+* `make Makefile` -- this should clone makestuff
+* `make pullall` -- this will clone repos that are listed as $(subdirs), and also clone (or link) versions of makestuff for these repos and other subdirectories
+	* for very complicated projects you may need to `make pullall` more than once; twice should almost always be enough, you should also be able to tell when make pullall is bored (not cloning anything).
+
 [XXX.mk](https://github.com/dushoff/makestuff/blob/master/XXX.mk)

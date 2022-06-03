@@ -1,4 +1,4 @@
-## This is a sample Makefile for getting started with makestuff
+## useMakestuff project
 
 current: target
 -include target.mk
@@ -7,13 +7,15 @@ Ignore = target.mk
 # -include makestuff/perl.def
 
 vim_session:
-	bash -cl "vmt"
+	bash -cl "vmt README.md"
+
+######################################################################
+
+Sources += Makefile README.md
 
 ######################################################################
 
 ### Makestuff
-
-Sources += Makefile
 
 Ignore += makestuff
 msrepo = https://github.com/dushoff

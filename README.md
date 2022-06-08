@@ -10,7 +10,7 @@ You can control makestuff by adding "-include" statements to the bottom of your 
 makestuff is a bit of a mess and should probably be refactored. [JD](https://mac-theobio.github.io/dushoff.html) developed it for too long with a very small group, and it mixes things of general use with things that are very particular to the lab workflow.
 
 * [git](git.md): there are a _lot_ of rules in [git.mk](https://github.com/dushoff/makestuff/blob/master/git.mk), but using some of the simple ones can be fun.
-* [pipeR](pipeR.md): [pipeR.mk](https://github.com/dushoff/makestuff/blob/master/pipeR.mk) has rules for making and using products from R scripts. It is intended to work with [the shellpipes package](https://dushoff.github.io/shellpipes/), which provides R commands to use information passed by the make rules, and to save things the way that the make rules expect.
+* [pipeR](pipeR.md): [pipeR.mk](https://github.com/dushoff/makestuff/blob/master/pipeR.mk) has rules for making and using products from R scripts. via [the shellpipes package](https://dushoff.github.io/shellpipes/)
 
 ## Using an existing makestuff repo
 

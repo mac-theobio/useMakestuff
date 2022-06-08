@@ -17,6 +17,11 @@ Sources += $(wildcard *.md)
 
 ######################################################################
 
+Sources += pipeRex.mk
+include pipeRex.mk
+
+######################################################################
+
 ### Makestuff
 
 Ignore += makestuff
@@ -30,7 +35,7 @@ makestuff/%.stamp:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

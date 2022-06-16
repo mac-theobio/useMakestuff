@@ -17,6 +17,12 @@ Sources += $(wildcard *.md)
 
 ######################################################################
 
+## make lesson
+
+Sources += make_intro.md make_intro.mk
+
+######################################################################
+
 ### Makestuff
 
 Ignore += makestuff

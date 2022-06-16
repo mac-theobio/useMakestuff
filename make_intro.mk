@@ -21,7 +21,7 @@ README.md.words: README.md
 ## explicit rules always override implicit rules
 
 ## One more automatic variable is $*, which corresponds in recipe to the % in dependency
-Ignore += *.md.words
+Ignore += $(wildcard *.md.words *.wc)
 %.md.words: %.md
 	@echo $* is my md file
 	wc < $< > $@

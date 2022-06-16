@@ -20,6 +20,12 @@ Sources += $(wildcard *.md)
 ## make lesson
 
 Sources += make_intro.md make_intro.mk
+include make_intro.mk
+
+######################################################################
+
+Sources += pipeRex.mk
+include pipeRex.mk
 
 ######################################################################
 
@@ -36,7 +42,7 @@ makestuff/%.stamp:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

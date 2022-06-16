@@ -12,6 +12,8 @@ The idea is to do exactly the necessary work to provide updated target files whe
 make uses _dependencies_ provided by you to decide what needs to be done
 
 make uses _recipes_ provided by you to try to do it
+* these are shell commands, by default in a fairly weird shell `/bin/sh`
+* make variables can be expanded inside these commands
 
 a "rule" is a set of dependencies (usually) associated (somehow) with a recipe
 

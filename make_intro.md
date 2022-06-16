@@ -17,9 +17,19 @@ make uses _recipes_ provided by you to try to do it
 
 a "rule" is a set of dependencies (usually) associated (somehow) with a recipe
 
-## Pros and cons
+## Pros and cons (workflow tools in general)
+
+Enhance replicability
+
+Good for self-documenting at the project level
+
+Typically have good recursion
+* you can build things that work, and then build on top of them
+
+## Pros and cons (make-specific)
 
 Highly stable, widely used
+* We have a lot of lab support (esp. JD)
 
 Ancient and awkward
 
@@ -39,6 +49,7 @@ passing information from make
 
 passing information to make
 * parsing input files
+* can get very deep
 
 ## make has fragile syntax
 

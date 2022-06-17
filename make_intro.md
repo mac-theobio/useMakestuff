@@ -69,3 +69,4 @@ if there are things you do often you can code how you do them to use across mult
 * you can make generic implicit rules
 * you can put generic recipes in variables 
 
+## Automatic variables

@@ -4,6 +4,7 @@
 ## A rule is a dependency line followed optionally by a recipe block
 
 make_intro.md.words: make_intro.md
+	wc < make_intro.md > make_intro.md.words 
 
 ## Multiple dependency lines are just combined; you can only have one recipe block for a given target
 
@@ -23,20 +24,16 @@ README.md.words: README.md
 ######################################################################
 
 ## Implicit rules
-
-## Explicit rules have explicitly named targets
-make_intro.md.words: make_intro.md
-	wc < make_intro.md > make_intro.md.words 
+## Explicit rules have explicitly named targets like README.md.words above
 
 ## An implicit version of this rule
 ## implicit rules may not "chain" as easily 
 ## explicit rules always override implicit rules
-
-## One more automatic variable is $*, which corresponds in recipe to the % in dependency
 Ignore += $(wildcard *.md.words *.wc)
 %.md.words: %.md
 	@echo $* is my md file
 	wc < $< > $@
+## Note the new automatic variable $*, which corresponds in recipe to the % in dependency
 
 ######################################################################
 

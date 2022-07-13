@@ -83,3 +83,10 @@ if there are things you do often you can code how you do them to use across mult
 * you can put generic recipes in variables 
 
 ## Automatic variables
+
+Short, cryptic and useful:
+* $^: all of the dependencies (not just the ones from this rule ¶)
+* $<: the first dependency make finds (generally _does_ choose from the same ¶ as the recipe)
+* $@: the target name
+* $*: the stem matched by % in the dependency line
+* [Many others](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)

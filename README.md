@@ -23,7 +23,7 @@ In general, you should be able to make the primary target in a makestuff project
 * `make all` -- as far as I can tell, this is not implemented anywhere, but would be a good convention for the collection of final products (paper, supplementary material, etc.)
 	* if `make all` is not implemented, you will need to identify and make the desired target: `make main.pdf` is an example from a randomly selected project
 
-## Lab meeting files
+## Lab meeting [recorded here, password &?PE^8VD](https://mcmaster.zoom.us/rec/share/HX-pI_xXnIz0gD5emMY-MUqfcBQYLC1i2Sk_lrlm70s5t0vPeQHD_oWanGjWFOah.VMu6cbV7oambjL02) files
 
 [make_intro](make_intro.md)
 * [make file](make_intro.mk)

@@ -1,4 +1,3 @@
-
 ## A simple rule
 
 ## A rule is a dependency line followed optionally by a recipe block

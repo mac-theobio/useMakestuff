@@ -9,6 +9,8 @@ vim_session:
 
 ######################################################################
 
+Sources += $(wildcard *.R)
+
 first.Rout: first.R
 	$(pipeR)
 

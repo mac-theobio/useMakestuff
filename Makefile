@@ -22,6 +22,8 @@ Sources += $(wildcard *.md)
 Sources += make_intro.md make_intro.mk
 include make_intro.mk
 
+alldirs += lab_examples
+
 ######################################################################
 
 ## shellpipes example

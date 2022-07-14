@@ -25,9 +25,11 @@ In general, you should be able to make the primary target in a makestuff project
 
 ## Lab meeting
 
-* [First recording, passcode &?PE^8VD](https://mcmaster.zoom.us/rec/share/HX-pI_xXnIz0gD5emMY-MUqfcBQYLC1i2Sk_lrlm70s5t0vPeQHD_oWanGjWFOah.VMu6cbV7oambjL02) files
+First session
+* [Recording, passcode &?PE^8VD](https://mcmaster.zoom.us/rec/share/HX-pI_xXnIz0gD5emMY-MUqfcBQYLC1i2Sk_lrlm70s5t0vPeQHD_oWanGjWFOah.VMu6cbV7oambjL02)
 * [make_intro](make_intro.md)
 	* [make file](make_intro.mk)
 
-* [Second recording, passcode: d4Y^ZS!.](https://mcmaster.zoom.us/rec/share/DRSKzbOfb7ITFikFPWtjBF3R8bR0-o6DnmHaiDWriwbsskDTETNTbigIgBAnO2RJ.aT5AgudgBl7Bm4Gd)
+Second session
+* [Recording, passcode: d4Y^ZS!.](https://mcmaster.zoom.us/rec/share/DRSKzbOfb7ITFikFPWtjBF3R8bR0-o6DnmHaiDWriwbsskDTETNTbigIgBAnO2RJ.aT5AgudgBl7Bm4Gd)
 * [lab_examples folder](https://github.com/mac-theobio/useMakestuff/tree/master/lab_examples)

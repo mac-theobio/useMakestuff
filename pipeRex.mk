@@ -19,5 +19,3 @@ calc.Rout: calc.R base.rda
 ## it's good to add startGraphics() after you call shellpipes, but simple projects always work even without that
 
 plot.Rout: plot.R base.rda
-
-

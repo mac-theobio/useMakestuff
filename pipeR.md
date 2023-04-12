@@ -22,3 +22,13 @@ To make a pipeline we want to use shellpipes (by saying `library(shellpipes)` ne
 A downstream script can then use the output of our script. We tell make about this dependency with a dependency rule, and make then passes the dependency information to the downstream script, so that it can load information with a shellpipes loading command (e.g., loadEnvironments())
 
 A simple example is shown in [pipeRex.mk](pipeRex.mk)
+
+## Magic mode (looked-down-upon)
+
+If you want things to Just Work, with shellpipes hidden, for a simple project:
+
+* use `autowrapR` and `$(wrapR)` instead of pipeR equivalents
+* Change any legacy `.Rout` dependencies to `.rda`
+	* `.R` dependencies should also work, but are less recommended
+
+You can even combine magic-mode `$(wrapR)` recipes for simple scripts, function definitions, etc., with modern-mode invocations for fancier scripts.

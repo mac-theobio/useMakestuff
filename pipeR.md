@@ -12,7 +12,7 @@ The [pipeR make file](https://github.com/dushoff/makestuff/blob/master/pipeR.mk)
 
 make should now understand to run the script and put the output into the "target" (the .Rout file).
 * if you make the target again, make will rerun the script if it has changed, but not if it hasn't
-* the "error" stream from R goes to an .Rlog file (and is show on by default to the screen, and not to the target
+* the "error" stream from R goes to an .Rlog file, not the target (and is also shown on the screen)
 * if the script does not complete successfully, the output can be found instead in <scriptname.rtmp>
 
 ## Making a pipeline

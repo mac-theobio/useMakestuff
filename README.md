@@ -1,3 +1,5 @@
+DEPRECATED see https://github.com/dushoff/makestuff/
+
 ## Getting started
 
 * Fork or otherwise copy [the newMakestuff repo](https://github.com/dushoff/newMakestuff.git)

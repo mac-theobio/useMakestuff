@@ -34,17 +34,24 @@ Modularity
 * you can build things that work, and then build on top of them
 * do tasks on chunks and let the tool co-ordinate for you
 
+There is a danger of focusing on cool workflow stuff to avoid parts of the work you with to avoid
+
 ## Pros and cons (make-specific)
 
 Highly stable, widely used
 * We have a lot of lab support (esp. JD)
 
 Ancient and awkward
+* Long learning curve, some weirdnesses
 
 ## Other tools
 
+Language-adjacent
 * [R {targets} package](https://books.ropensci.org/targets/)
 * [snakemake (python-based)](https://snakemake.github.io/)
+* [cmake](https://cmake.org/)
+
+Language-agnostic
 * [just](https://github.com/casey/just)
 
 ## make doesn't care

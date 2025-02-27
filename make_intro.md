@@ -43,6 +43,10 @@ Ancient and awkward
 
 ## Other tools
 
+* [R {targets} package](https://books.ropensci.org/targets/)
+* [snakemake (python-based)](https://snakemake.github.io/)
+* [just](https://github.com/casey/just)
+
 ## make doesn't care
 
 make believes the dependencies and recipes you tell it

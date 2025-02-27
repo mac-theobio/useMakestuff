@@ -1,4 +1,10 @@
 
+## Intro
+
+make is a workflow tool based on the command line. It will go smoother if you have some familiarity with shells and command lines.
+
+We have some notes from a [theobio summer learning program](https://hackmd.io/cxyevU-nRey03BxOoWUJ7g?view). They include links to a shell intro (and other stuff about make as well).
+
 ## Principles
 
 `make` is designed to update _target_ files (made by the computer) based on _source_ files (provided to the project by the user).
@@ -20,11 +26,13 @@ a "rule" is a set of dependencies (usually) associated (somehow) with a recipe
 ## Pros and cons (workflow tools in general)
 
 Enhance replicability
+* Do things with commands that can be recorded and repeated exactly
 
 Good for self-documenting at the project level
 
-Typically have good recursion
+Modularity
 * you can build things that work, and then build on top of them
+* do tasks on chunks and let the tool co-ordinate for you
 
 ## Pros and cons (make-specific)
 
@@ -33,9 +41,7 @@ Highly stable, widely used
 
 Ancient and awkward
 
-There are well-established usage patterns you should probably avoid
-
-Cultishness
+## Other tools
 
 ## make doesn't care
 
@@ -67,11 +73,6 @@ We can make make make by:
 * deleting output files
 * adding fake dependencies (often the makefile itself)
 	* remember to delete these eventually or else make will do extra work later
-
-## Variables
-
-* Don't overuse
-* You can usually get away without `:=`
 
 ## Generic rules
 
